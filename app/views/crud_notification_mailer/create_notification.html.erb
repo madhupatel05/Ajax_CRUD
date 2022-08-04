@@ -1,0 +1,12 @@
+<h1>Welcome <%= "#{@object.name}" %></h1>
+
+
+
+<% @object.attributes.each do |attr_key, attr_value |%>
+<p><strong><%= attr_key %>:</strong><%= attr_value%></p>
+<% end %>
+
+
+
+<h4>Thanks for visit</h4>
+<h4>Admin Team </h4>
